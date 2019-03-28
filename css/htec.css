@@ -1,9 +1,3 @@
-/*
-    Theme Name: Bell
-    Theme URL: https://bootstrapmade.com/bell-free-bootstrap-4-template/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
@@ -79,7 +73,7 @@ section {
 .card {
   position: relative;
   padding: 0;
-  border: 0;
+  border: 1;
   border-radius: 0;
   margin: 0;
   overflow: hidden;
@@ -499,7 +493,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   Parallax Styling
   ================================================== */
 .block {
-  color: #fff;
+  color: #000;
   height: 630px;
   overflow: hidden;
   padding-top: 85px;
@@ -511,7 +505,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .block p {
-  color: #fff;
+  color: #000;
   margin-bottom: 45px;
 }
 
@@ -662,105 +656,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* ==================================================
-  Team Styling
-  ================================================== */
-.team h2 {
-  color: #1B3B7A;
-}
-
-.team .col-sm-3 {
-  padding: 0;
-}
-
-.team .card > a {
-  display: block;
-}
-
-.team .card img {
-  width: 100%;
-}
-
-.team .card h4 {
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.team .card p {
-  font-size: 11px;
-  color: #fff;
-  opacity: .75;
-  margin: 0;
-  padding: 0 35px;
-}
-
-.team .card .social-nav {
-  margin-bottom: 45px;
-}
-
-.team .card .social-nav a {
-  color: #fff;
-  font-size: 16px;
-  margin: 0 4px;
-}
-
-.team .card .social-nav a:hover {
-  opacity: .75;
-}
-
-.team .card:hover .team-over {
-  opacity: 1;
-  visibility: visible;
-}
-
-.team .card:hover .card-title-wrap {
-  background-color: #1B3B7A;
-}
-
-.team .card:hover .card-title-wrap .card-title, .team .card:hover .card-title-wrap .card-text {
-  color: #fff;
-}
-
-.team .team-over {
-  padding-top: 45px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  top: 0;
-  left: 0;
-  text-align: center;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.team .card-title-wrap {
-  padding: 15px 25px;
-  position: relative;
-  z-index: 9;
-  background-color: #fff;
-}
-
-.team .card-title-wrap .card-title, .team .card-title-wrap .card-text {
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
-  display: block;
-  margin: 0;
-}
-
-.team .card-title-wrap .card-title {
-  font-size: 24px;
-  color: #333;
-}
-
-.team .card-title-wrap .card-text {
-  font-size: 18px;
-  color: #999;
-}
-
-/* ==================================================
   Contact Section
   ================================================== */
 #contact {
@@ -899,9 +794,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #1B3B7A;
 }
 
+.map-frame{
+  width: 400px;
+  height: 300px;
+  border: 0;
+}
+
+.img-machine{
+  height: 70%;
+}
+
 /* ==================================================
   Responsive Styling
   ================================================== */
+  @media (max-width: 425px) {
+    .map-frame{
+      width: 100%;
+    }
+  }
+  
 @media (max-width: 61.9em) {
   section,
   .block,
@@ -971,3 +882,4 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: inline-block;
   }
 }
+
