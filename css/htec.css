@@ -6,7 +6,8 @@ p {
   line-height: 1.55;
   color: #333;
   font-size: 400;
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  /* font-family: "Raleway", Helvetica, Arial, sans-serif; */
+  font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -77,6 +78,8 @@ section {
   border-radius: 0;
   margin: 0;
   overflow: hidden;
+  height: 240px;
+  
 }
 
 a:hover {
@@ -538,6 +541,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 70px;
   height: 70px;
   margin-bottom: 15px;
+  margin-top: 15px;
   background: #1B3B7A;
   color: #fff;
   font-size: 24px;
@@ -882,4 +886,3 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: inline-block;
   }
 }
-

@@ -1,6 +1,8 @@
 
 $(document).ready(function() {
-
+  if(screen.availWidth < 768){
+    $('#parallax').attr('style', 'background-image: url("img/parallax-audi1.png"); background-position: 0px 39.2px;');
+  }
   // Smooth scrolling
   $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {
