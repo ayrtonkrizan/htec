@@ -513,6 +513,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #000;
   margin-bottom: 45px;
 }
+#parallax {
+  background-size: cover;
+}
 
 /* ==================================================
   Features Styling
